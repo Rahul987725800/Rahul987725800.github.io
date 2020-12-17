@@ -1,0 +1,18 @@
+body {
+  width: 80%;
+  margin: auto;
+}
+nav {
+  background: rgb(102, 92, 92);
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  padding: 1rem;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}

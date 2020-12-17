@@ -1,0 +1,19 @@
+What is a service worker?
+- A JS script that gets registered with the browser
+- Stays registered with the browser even when offline
+- Can load content even with no connection
+- They can not directly access the DOM
+- Programmable network proxy
+(allows us to control how network requests are handled)
+- Terminated when not being used
+- Make use of promises
+- Require HTTPs unless on localhost
+Use Cases
+- Caching asset and API calls
+- Push Notifications (Push and Notification API)
+- Background data sync/preload
+(eg. like clicked when offline, request sent to server when user comes online)
+- Used in progressive web apps
+Service Worker Lifecycle and Events
+Lifecycle = REGISTER -> INSTALL -> ACTIVATE
+Message Events & Functional Events such as "fetch", "push" & "sync"
